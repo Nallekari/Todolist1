@@ -17,9 +17,6 @@ function TodoList(props) {
   }
 
   
-  function deleteTodo(index) {
-    props.todos.filter((todo, i) => i !== index)
-  }
 
   return (
     <div>

@@ -1,6 +1,12 @@
 import React from 'react';
 
 function TodoTable(props) {
+
+    
+  function deleteTodo(index) {
+    props.todos.filter((todo, i) => i !== index)
+  }
+
     return (
     <div>
         <table>
